@@ -1,5 +1,9 @@
 # CodiciMatlab
 Codici matlab per la tesi:
+
+## Cpeano(t,n)
+Funzione che calcola il valore del curva di Peano bidimensionale in t, tramite i file base3(t,n) (che restituisce un array formato dalle prime n cifre in base 3 di t) e peano(t,n) (che applica la formula esplicita riportata nella tesi).
+
 ## PeanoCurve(n, part_type)
 Codice scaricato da https://it.mathworks.com/matlabcentral/fileexchange/62381-peanocurve-n, restituisce le coordinate dalla (n-1)-esima iterazione tramite conti che sfruttano l'autosimilarità. Part_type indica il tipo di partizione: 
 1) i/3^2k 
