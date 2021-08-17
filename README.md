@@ -29,6 +29,8 @@ Dyfunc(xi,G) è il differenziale della funzione da integrare (xi è il punto in 
 ## Integrale2(y,dy,t,k,int_type)
 Funzione identica ad integraleopt ma effettua il calcolo punto per punto dei valori della curva di Peano tramite cpeano (più lento ma necessario nel caso della partizione 3).
 
+## Areaopt(t,k)
+Calcola il valore di A^k_{0,t} come descritto nella tesi. In particolare sfrutta il calcolo dei punti della curva di Peano tramite PeanoCurve per essere più efficiente.
 
 
 
