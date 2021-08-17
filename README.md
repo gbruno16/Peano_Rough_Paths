@@ -18,3 +18,9 @@ Funzione che calcola il valore dell'integrale per la funzione y da 0 a t lungo l
 - int_type: 'y' per Young, 'r' per Rough.
 - part_type: 1,2,3 in base al tipo di partizione scelto.
 
+## Yfunc e dyfunc
+Yfunc(xi, dx) è la funzione da integrare (xi è il punto in cui calcolarla, dx è l'incremento). 
+Dyfunc(xi,G) è il differenziale della funzione da integrare (xi è il punto in cui calcolarla, G è il processo del secondo ordine)
+
+
+
