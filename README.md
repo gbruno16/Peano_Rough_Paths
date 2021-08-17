@@ -20,7 +20,11 @@ Funzione che calcola il valore dell'integrale per la funzione y da 0 a t lungo l
 
 ## Yfunc e dyfunc
 Yfunc(xi, dx) è la funzione da integrare (xi è il punto in cui calcolarla, dx è l'incremento). 
-Dyfunc(xi,G) è il differenziale della funzione da integrare (xi è il punto in cui calcolarla, G è il processo del secondo ordine)
+Dyfunc(xi,G) è il differenziale della funzione da integrare (xi è il punto in cui calcolarla, G è il processo del secondo ordine).
+
+## Integrale2(y,dy,t,k,int_type)
+Funzione identica ad integraleopt ma effettua il calcolo punto per punto dei valori della curva di Peano tramite cpeano (più lento ma necessario nel caso della partizione 3).
+
 
 
 
