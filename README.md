@@ -1,5 +1,5 @@
 # CodiciMatlab
-Codici matlab per la tesi:
+Codici matlab per la tesi: calcolo dell'area di Levy della curva di Peano (rough path theory).
 
 ## Cpeano(t,n)
 Funzione che calcola il valore del curva di Peano bidimensionale in t, tramite i file base3(t,n) (che restituisce un array formato dalle prime n cifre in base 3 di t) e peano(t,n) (che applica la formula esplicita riportata nella tesi).
